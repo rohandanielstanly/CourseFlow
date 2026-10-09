@@ -1,7 +1,11 @@
 # CourseFlow
+## Submission
+**APK:** [submission/CourseFlow.apk](submission/CourseFlow.apk)
+**Demo video (2 min):** [submission/CourseFlow-demo.webm](submission/CourseFlow-demo.webm)
 
 Learning dashboard app: **Login → Course Dashboard → Course Details**, with offline support.
 **Stack:** Kotlin · XML views + ViewBinding · MVVM · Coroutines/StateFlow · Room · EncryptedSharedPreferences · JUnit
+
 
 ## Run
 Open in Android Studio (JDK 17) → Sync → Run. Tests: `./gradlew testDebugUnitTest`. Min SDK 24.
@@ -43,3 +47,5 @@ SwiftData/Core Data as the offline source of truth. Same state enum, `async/awai
 
 ## Known simplifications
 Mock API and login (fake token, no refresh/expiry); no DI framework; lessons can only be marked completed (not undone); logout keeps cached courses.
+## 
+
