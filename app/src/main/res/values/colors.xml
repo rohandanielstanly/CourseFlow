@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="cf_primary">#2563EB</color>
+    <color name="cf_primary_dark">#1E40AF</color>
+    <color name="cf_primary_light">#DBEAFE</color>
+    <color name="cf_primary_soft">#EFF5FF</color>
+    <color name="cf_background">#F4F7FE</color>
+    <color name="cf_surface">#FFFFFF</color>
+    <color name="cf_text_primary">#0F172A</color>
+    <color name="cf_text_secondary">#64748B</color>
+    <color name="cf_stroke">#DCE6F8</color>
+    <color name="cf_error">#DC2626</color>
+    <color name="cf_white_translucent">#33FFFFFF</color>
+</resources>

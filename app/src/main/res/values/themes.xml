@@ -1,0 +1,81 @@
+<resources>
+    <!-- Light-only blue theme with one typeface (Poppins). -->
+    <style name="Theme.CourseFlow" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/cf_primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/cf_primary_light</item>
+        <item name="colorOnPrimaryContainer">@color/cf_primary_dark</item>
+        <item name="colorSecondary">@color/cf_primary</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorSecondaryContainer">@color/cf_primary_light</item>
+        <item name="colorOnSecondaryContainer">@color/cf_primary_dark</item>
+        <item name="colorSurface">@color/cf_surface</item>
+        <item name="colorOnSurface">@color/cf_text_primary</item>
+        <item name="colorSurfaceVariant">@color/cf_primary_soft</item>
+        <item name="colorOnSurfaceVariant">@color/cf_text_secondary</item>
+        <item name="colorOutline">@color/cf_text_secondary</item>
+        <item name="colorOutlineVariant">@color/cf_stroke</item>
+        <item name="colorError">@color/cf_error</item>
+        <item name="android:colorBackground">@color/cf_background</item>
+        <item name="android:statusBarColor">@color/cf_primary_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <!-- One font everywhere -->
+        <item name="fontFamily">@font/poppins_regular</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="textAppearanceHeadlineLarge">@style/TextAppearance.CourseFlow.HeadlineLarge</item>
+        <item name="textAppearanceHeadlineMedium">@style/TextAppearance.CourseFlow.HeadlineMedium</item>
+        <item name="textAppearanceHeadlineSmall">@style/TextAppearance.CourseFlow.HeadlineSmall</item>
+        <item name="textAppearanceTitleLarge">@style/TextAppearance.CourseFlow.TitleLarge</item>
+        <item name="textAppearanceTitleMedium">@style/TextAppearance.CourseFlow.TitleMedium</item>
+        <item name="textAppearanceTitleSmall">@style/TextAppearance.CourseFlow.TitleSmall</item>
+        <item name="textAppearanceBodyLarge">@style/TextAppearance.CourseFlow.BodyLarge</item>
+        <item name="textAppearanceBodyMedium">@style/TextAppearance.CourseFlow.BodyMedium</item>
+        <item name="textAppearanceBodySmall">@style/TextAppearance.CourseFlow.BodySmall</item>
+        <item name="textAppearanceLabelLarge">@style/TextAppearance.CourseFlow.LabelLarge</item>
+        <item name="textAppearanceLabelMedium">@style/TextAppearance.CourseFlow.LabelMedium</item>
+        <item name="textAppearanceLabelSmall">@style/TextAppearance.CourseFlow.LabelSmall</item>
+    </style>
+
+    <style name="TextAppearance.CourseFlow.HeadlineLarge" parent="TextAppearance.Material3.HeadlineLarge">
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+    </style>
+    <style name="TextAppearance.CourseFlow.HeadlineMedium" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+    </style>
+    <style name="TextAppearance.CourseFlow.HeadlineSmall" parent="TextAppearance.Material3.HeadlineSmall">
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+    </style>
+    <style name="TextAppearance.CourseFlow.TitleLarge" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+    </style>
+    <style name="TextAppearance.CourseFlow.TitleMedium" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+    </style>
+    <style name="TextAppearance.CourseFlow.TitleSmall" parent="TextAppearance.Material3.TitleSmall">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+    </style>
+    <style name="TextAppearance.CourseFlow.BodyLarge" parent="TextAppearance.Material3.BodyLarge">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+    </style>
+    <style name="TextAppearance.CourseFlow.BodyMedium" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+    </style>
+    <style name="TextAppearance.CourseFlow.BodySmall" parent="TextAppearance.Material3.BodySmall">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+    </style>
+    <style name="TextAppearance.CourseFlow.LabelLarge" parent="TextAppearance.Material3.LabelLarge">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+    </style>
+    <style name="TextAppearance.CourseFlow.LabelMedium" parent="TextAppearance.Material3.LabelMedium">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+    </style>
+    <style name="TextAppearance.CourseFlow.LabelSmall" parent="TextAppearance.Material3.LabelSmall">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+    </style>
+
+    <!-- White icons/text on the blue header toolbar -->
+    <style name="ThemeOverlay.CourseFlow.Toolbar" parent="ThemeOverlay.Material3.Dark">
+        <item name="colorControlNormal">@color/white</item>
+    </style>
+</resources>

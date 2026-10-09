@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">CourseFlow</string>
+    <string name="login_title">Welcome back</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Log in</string>
+    <string name="courses_title">My Courses</string>
+    <string name="retry">Retry</string>
+    <string name="empty_courses">No courses available yet.</string>
+    <string name="offline_banner">Offline – showing saved courses. Tap to retry.</string>
+    <string name="instructor_fmt">by %1$s</string>
+    <string name="lessons_fmt">%1$d lessons</string>
+    <string name="progress_fmt">%1$d%%</string>
+    <string name="continue_learning">Continue</string>
+    <string name="mark_done">Mark done</string>
+    <string name="completed">✓ Completed</string>
+    <string name="pending">○ Pending</string>
+    <string name="load_error_fmt">Couldn\'t load courses: %1$s</string>
+    <string name="logout">Log out</string>
+    <string name="tagline">Learn smarter, anywhere.</string>
+    <string name="login_subtitle">Log in to continue learning</string>
+    <string name="list_subtitle">Pick up where you left off</string>
+    <string name="your_progress">Your progress</string>
+</resources>

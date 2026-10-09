@@ -1,0 +1,5 @@
+{
+  "1": ["Introduction","Variables & Data Types","Operators","Conditionals","Loops","Functions","Lists & Tuples","Dictionaries & Sets","Strings","File Handling","Exceptions","Modules & Packages","OOP","Inheritance","Decorators","Generators","Virtual Environments","Testing with pytest","Working with APIs","Capstone Project"],
+  "2": ["Introduction to GenAI","How LLMs Work","Tokens & Embeddings","Prompt Engineering","Few-Shot Prompting","Chain-of-Thought","Using LLM APIs","Structured Outputs","Function Calling","Retrieval-Augmented Generation","Vector Databases","Fine-Tuning Basics","Evaluation","Safety & Guardrails","Agents","Capstone Project"],
+  "3": ["HTML Basics","CSS Layout","JavaScript Fundamentals","DOM Manipulation","Async JavaScript","Git & GitHub","TypeScript","React Basics","React State","React Router","Forms & Validation","Node.js Intro","Express Routing","REST API Design","Middleware","SQL Basics","PostgreSQL","ORMs","MongoDB","Authentication","Authorization","Testing","Docker","CI/CD","Caching","Deployment","Monitoring","Capstone Project"]
+}
